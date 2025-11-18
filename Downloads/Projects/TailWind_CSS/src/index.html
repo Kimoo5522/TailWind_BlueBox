@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>BlueBox</title>
+</head>
+
+<body class="bg-slate-700">
+    <main class="main flex justify-center w-full h-screen">
+
+        <!-- Sidebar -->
+        <aside class="sidebar bg-white">
+            <h1 class="site-name text-sky-500 text-center text-6xl m-2">BlueBox</h1>
+            <div class="sidebar-details m-5">
+                <!-- manger name and photo -->
+                <div class="manger text-center">
+                    <img src="" alt="">
+                    <h2 class="manger-name text-3xl m-0">Angelina Doe</h2>
+                    <p class="manger-p m-0">Project Manger</p>
+                </div>
+
+                <!-- links -->
+                <ul class="list-style p-4 m-0 ">
+                    <li>
+                        <a href="" class="links flex justify-between p-3">
+                            <span>Dashboard</span>
+                            <img src="icons/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Icon" class="icons">
+                        </a>
+                    </li>
+                    <!---->
+                    <li>
+                        <a href="" class="links flex justify-between p-3">
+                            <span>UI Elements</span>
+                            <img src="icons/dataset_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Icon" class="icons">
+                        </a>
+                    </li>
+                    <!---->
+                    <li>
+                        <a href="" class="links flex justify-between p-3">
+                            <span>Comonents</span>
+                            <img src="icons/add_reaction_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Icon" class="icons">
+                        </a>
+                    </li>
+                    <!---->
+                    <li>
+                        <a href="" class="links flex justify-between p-3">
+                            <span>Forms Stuff</span>
+                            <img src="icons/terminal_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Icon" class="icons">
+                        </a>
+                    </li>
+                    <!---->
+                    <li>
+                        <a href="" class="links flex justify-between p-3">
+                            <span>Data Table</span>
+                            <img src="icons/terminal_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Icon" class="icons">
+                        </a>
+                    </li>
+                    <!---->
+                    <li>
+                        <a href="" class="links flex justify-between p-3">
+                            <span>Icons</span>
+                            <img src="icons/view_comfy_alt_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Icon" class="icons">
+                        </a>
+                    </li>
+                    <!---->
+                    <li>
+                        <a href="" class="links flex justify-between p-3">
+                            <span>Sample Pages</span>
+                            <img src="icons/view_compact_alt_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Icon" class="icons">
+                        </a>
+                    </li>
+                    <!---->
+                    <li>
+                        <a href="" class="links flex justify-between p-3">
+                            <span>Extra</span>
+                            <img src="icons/volcano_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Icon" class="icons">
+                        </a>
+                    </li>
+                </ul>
+                <button class="sidebar-button bg-sky-500 text-white w-full h-9 cursor-pointer">Add Project</button>
+            </div>
+        </aside>
+
+        <!-- Right Section -->
+        <section class="right-section container flex flex-col bg-blue-100 w-3/4">
+
+            <!-- Header -->
+            <header class="header">
+                <!-- Search bar -->
+                <div class="search-bar bg-white  ">
+                    <input type="search" placeholder="Search" class="search pl-4 mt-1 w-full border-0 outline-0 h-11">
+                </div>
+            </header>
+
+                <h2 class="dashboard-header mt-5 ml-6 mb-2 text-2xl font-semibold ">
+                    <img src="icons/dashboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="icon" class="dashboard-icon inline bg-sky-500">
+                    Dashboard
+                </h2>
+
+            <!-- Dashboard -->
+            <section class="dashboard flex mx-5 my-3 ">
+                <div class="stock bg-fuchsia-500 rounded-2xl w-1/3 h-40 mr-2.5">
+                    <h3 class="name pt-6 pl-6">Stock Total</h3>
+                    <p class="amount pt-1 pl-6">$150000</p>
+                    <p class="stock-p pt-7 pl-6">Increased by 60%</p>
+                </div>
+
+                <div class="profits bg-indigo-500 rounded-2xl w-1/3 h-40 mr-2.5">
+                    <h3 class="name pt-6 pl-6">Total profit</h3>
+                    <p class="amount pt-1 pl-6">$25000</p>
+                    <p class="profits-p pt-7 pl-6">Increased by 30%</p>
+                </div>
+
+                <div class="visitors bg-blue-500 rounded-2xl w-1/3 h-40 mr-2.5">
+                    <h3 class="name pt-6 pl-6">Unique Visitors</h3>
+                    <p class="amount pt-1 pl-6">250000</p>
+                    <p class="visitors-p pt-7 pl-6">Increased by 80%</p>
+                </div>
+            </section>
+
+            <!-- Table -->
+            <section class="table-section bg-white mx-5 my-3 p-5 h-2/3">
+                <table class="table w-full">
+                    <tr class="table-tr h-8">
+                        <th class="text-left">Name</th>
+                        <th class="text-left">Emails</th>
+                        <th class="text-left">User Type</th>
+                        <th class="text-left">Joined</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr class="table-tr h-14">
+                        <td>Maike Radherd</td>
+                        <td>osd@yahoo.com</td>
+                        <td>Admin</td>
+                        <td>25 Apr,2008</td>
+                        <td><div class="table-status bg-blue-500 text-center">Pendding</div></td>
+                    </tr>
+                    <tr class="table-tr h-14">
+                        <td>John Ragnard</td>
+                        <td>osd@yahoo.com</td>
+                        <td>Admin</td>
+                        <td>25 Apr,2008</td>
+                        <td><div class="table-status2 bg-fuchsia-500 text-center">Approved</div></td>
+                    </tr>
+                    <tr class="table-tr h-14">
+                        <td>Make Husny</td>
+                        <td>osd@yahoo.com</td>
+                        <td>Manger</td>
+                        <td>25 Apr,2008</td>
+                        <td><div class="table-status bg-blue-500 text-center">Pendding</div></td>
+                    </tr>
+                    <tr class="table-tr h-14">
+                        <td>Kevien Phellib</td>
+                        <td>osd@yahoo.com</td>
+                        <td>Editor</td>
+                        <td>25 Apr,2008</td>
+                        <td><div class="table-status2 bg-fuchsia-500 text-center">Approved</div></td>
+                    </tr>
+                    <tr class="table-tr h-14">
+                        <td>Ross Kemperman</td>
+                        <td>osd@yahoo.com</td>
+                        <td>Subscriber</td>
+                        <td>25 Apr,2008</td>
+                        <td><div class="table-status bg-blue-500 text-center">Pendding</div></td>
+                    </tr>
+                </table>
+            </section>
+
+        </section>
+    </main>    
+</body>
+</html>
