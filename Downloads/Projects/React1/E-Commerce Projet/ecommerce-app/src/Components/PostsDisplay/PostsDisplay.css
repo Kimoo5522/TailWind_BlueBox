@@ -1,0 +1,15 @@
+.posts-display {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 40px;
+}
+.posts-display-container h1 {
+    font-size: 46;
+    font-weight: 900;
+    text-align: center;
+}
+.posts-display-container {
+    margin: 50px;
+}

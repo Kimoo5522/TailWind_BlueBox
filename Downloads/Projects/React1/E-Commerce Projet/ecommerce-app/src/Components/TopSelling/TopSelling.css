@@ -1,0 +1,28 @@
+.top-selling {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-selling h1 {
+    font-size: 46px;
+    margin-top: 50px;
+}
+.top-selling hr {
+    width: 80%;
+    margin-top: 70px;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+.top-selling-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 75%;
+}

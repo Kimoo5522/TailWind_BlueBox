@@ -1,0 +1,10 @@
+.rating-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.all-reviews-word {
+    margin: 50px 0px 0px 30px;
+    font-size: 24px;
+    font-weight: 500;
+
+}

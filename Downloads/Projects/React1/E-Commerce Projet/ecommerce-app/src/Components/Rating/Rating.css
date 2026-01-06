@@ -1,0 +1,28 @@
+.rating {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px -1px black;
+    margin: 20px;
+}
+.rating-stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating-stars-points {
+    font-size: 30px;
+    color: #626262;
+}
+.rating-details {
+    width: 350px;
+}
+.rating-details-comment {
+    color: #626262;
+    margin-top: 10px;
+}
+.rating-details-date {
+    color: #626262;
+    margin-top: 25px;
+}
