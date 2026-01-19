@@ -17,7 +17,7 @@ function Cart() {
     0
   );
   const deliveryFee = 15;
-
+ 
   return (
     <div className="cart-page">
       {cartItemsArray.length > 0 ? (

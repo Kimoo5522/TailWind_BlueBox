@@ -17,5 +17,7 @@
     margin-top: 30px;
     flex-wrap: nowrap;
     overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
     width: 75%;
 }
